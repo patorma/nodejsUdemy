@@ -1,17 +1,17 @@
 {
-  "name": "uptasknodejs",
-  "version": "1.0.0",
-  "description": "Proyecto UpTask con Node y MVC",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Patricio Ccontreras Ortiz",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.1"
-  }
+    "name": "uptasknodejs",
+    "version": "1.0.0",
+    "description": "Proyecto UpTask con Node y MVC",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index"
+    },
+    "author": "Patricio Ccontreras Ortiz",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1"
+    }
 }
