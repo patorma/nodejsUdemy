@@ -5,6 +5,9 @@ const path = require('path')
 //Crear una app de express
 const app = express()
 
+//donde cargar los archivos estaticos
+app.use(express.static('public'))
+
 //Habilitar pug (set es para agregar cierto valor)
 app.set('view engine', 'pug')
 
