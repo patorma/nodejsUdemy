@@ -9,7 +9,7 @@ module.exports = function() { // equivalente a export default
     //ruta para el home
     router.get('/', proyectosController.proyectosHome)
 
-    router.get('/nosotros', proyectosController.nosotros)
+
 
     return router
 }
